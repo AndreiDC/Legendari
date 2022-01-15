@@ -10,7 +10,7 @@ interface ItemsProps {
 }
 export const Legendari = (props: ItemsProps) => {
   return (
-    <div className="flex flex-col px-10px sm:flex-row md:flex-row lg:flex-row  ">
+    <div className="flex flex-col px-10px sm:flex-row sm:justify-center md:flex-row mg:justify-center lg:flex-row lg:justify-center ">
       {props.items.map((item) => (
         <img
           className=" py-2 sm:px-4 md:px-8 lg:px-16 bg-auto  bg-center"
