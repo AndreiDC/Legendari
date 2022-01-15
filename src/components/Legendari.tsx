@@ -15,7 +15,7 @@ export const Legendari = (props: ItemsProps) => {
         <img
           className=" py-2 sm:px-4 md:px-8 lg:px-16 bg-auto  bg-center"
           src={`${item.sourse}`}
-          alt="Helm"
+          alt={`${item.title}`}
         />
       ))}
     </div>
